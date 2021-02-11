@@ -1,1 +1,0 @@
-<https://torkhau.github.io/rsschool-cv/cv>

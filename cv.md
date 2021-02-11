@@ -11,6 +11,24 @@ I believe that a person develops only when he is not “sitting on the ground”
 - **Python** (*basic knowledge*);
 - Declared programming language **SQL** (*basic knowledge*);
 - Technology platform **1С Предприятие**.
+### Code examples
+Task **Recursive depth calculator** from Basic-js
+```
+calculateDepth(arr) {
+  if (arr.filter(elem => Array.isArray(elem)).length){
+    return 1 + this.calculateDepth(arr.reduce((newArr, elem) => [...newArr, ...Array.isArray(elem) ? elem : [elem]], []))
+  } else {
+    return 1
+  }
+}
+```
+
+Task **Count cats!** from Basic-js
+```
+function countCats(matrix) {
+  return matrix.map(elem => elem.filter(elem => elem==='^^')).reduce((summ, elem) => summ + elem.length, 0)
+};
+```
 ### Experience ;)
 - Microsoft as a Bill;
 - Tesla as a Ilon

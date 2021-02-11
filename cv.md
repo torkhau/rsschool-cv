@@ -16,3 +16,5 @@ I believe that a person develops only when he is not “sitting on the ground”
 - Tesla as a Ilon
 ### Education
 Graduated from the Brest State A.S. Pushkin University with a degree in applied mathematics with qualification of a mathematician programmer.
+### English level
+Most of the tests on various sites pass on level A2

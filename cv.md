@@ -2,7 +2,8 @@
 ### Contacts
 - email: **torkhau@gmail.com**;
 - skype: **torhoff-**;
-- telegram: **@tor4koff**.
+- telegram: **@tor4koff**;
+- discord: **Tor4koff#1281**.
 ### About me
 I believe that a person develops only when he is not “sitting on the ground”, when he receives new knowledge, is learning something.
 ### Skills

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+  --main-color: rgb(78, 36, 36);
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  margin-right: 50px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 100px 30px var(--main-color);
+}
+
+ul {
+  list-style-position: inside;
+}
+
+body {
+  width: auto;
+  height: 100vh;
+  background: url('./src/background.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Orbitron, "Courier New", Courier, monospace;
+  color: var(--main-color);
+  font-size: 30px;
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, .92);
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 4fr 12fr 1fr;
+}
+
+.container{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  font-size: 1rem;
+  display: grid;
+  grid-template-areas:  "skills education"
+                        "experience english-level"
+                        "code code";
+  grid-template-rows: 1.5fr 1fr 3fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 50px;
+}
+
+.article-wrapper > p {
+  margin-left: 10px;
+}
+
+.article-wrapper > ul {
+  margin-left: 10px;
+}
+
+.article-wrapper {
+  width: 300px;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.experience {
+  grid-area: experience;
+}
+
+.education {
+  grid-area: education;
+}
+
+.english-level {
+  grid-area: english-level;
+}
+
+.code {
+  grid-area: code;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.code > div {
+  width: 70%;
+}
+
+.right-position {
+  display: flex;
+  justify-content: flex-end;
+}
+
+pre {
+  margin-left: 30px;
+  font-family: "Source Code Pro", "Courier New", Courier, monospace;
+  font-size: .9rem;
+}
+
+footer {
+  display: flex;
+  margin: 0 auto;
+  font-size: .85rem;
+}
+
+footer p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer p > i {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-color)
+}
+
+a:hover {
+  font-weight: bold;
+}

@@ -106,3 +106,27 @@ pre {
   font-family: "Source Code Pro", "Courier New", Courier, monospace;
   font-size: .9rem;
 }
+
+footer {
+  display: flex;
+  margin: 0 auto;
+  font-size: .85rem;
+}
+
+footer p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer p > i {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-color)
+}
+
+a:hover {
+  font-weight: bold;
+}

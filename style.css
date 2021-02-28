@@ -113,12 +113,17 @@ footer {
   font-size: .85rem;
 }
 
-footer p {
+.list-contacts {
+  list-style: none;
+  display: inline-flex;
+}
+
+footer ul li {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-footer p > i {
+footer li > i {
   margin-right: 10px;
 }
 
